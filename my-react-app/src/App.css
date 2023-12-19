@@ -1,0 +1,167 @@
+/* App.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Quicksand:wght@700&family=Roboto&family=Roboto+Serif:opsz,wght@8..144,400;8..144,700&display=swap');
+body{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(247, 246, 246);
+}
+.page {
+  width: 393px;
+  height: 852px;
+  background: white;
+  margin: 0 auto;
+}
+
+.navbar {
+  width: 393px;
+  height: 91px;
+  flex-shrink: 0;
+  border-radius: 0px 0px 15px 15px;
+  background: #96A0FF;
+  position: relative;
+}
+
+.privateReporting {
+  width: 275px;
+  height: 40px;
+  color: white;
+  position: relative;
+  top: 45px;
+  left: 64px;
+  font-family: Quicksand;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  
+  /* Add other styles */
+}
+
+/* Add styles for other elements similarly */
+.main-box{
+width: 314px;
+height: 577px;
+flex-shrink: 0;
+border-radius: 15px;
+border: 1px solid #000;
+background: #FFF;
+margin-top: 55px;
+margin-left: 45px;
+}
+
+.main-box1{
+  margin-left: 29px;
+  margin-top: 69px;
+}
+/* Define styles for the footer icons */
+.form-label{
+  /* width: 97px;
+text-align: left; */
+height: 19px;
+flex-shrink: 0;
+color: black;
+margin-bottom:3px;
+/* text-align: center; */
+font-family: Quicksand;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.input-text{
+  width: 256px;
+height: 104px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #EEEEF7;
+margin-bottom: 15px;
+border: none;
+}
+.input-text1{
+  width: 256px;
+height: 43px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #EEEEF7;
+margin-bottom: 15px;
+border: none;
+}
+.doc-container{
+margin-top: 16px;
+margin-right: 24px;
+margin-left: 7px;
+margin-bottom: 38px;
+/* display: flex;
+align-items: center; */
+/* justify-content: center; */
+}
+.doc-label{
+  position: relative;
+  top: 13px;
+  display: inline-block;
+  margin-right: 10px;
+
+  
+}
+.doc-label>p{
+  position: relative;
+  bottom: 20px;
+}
+.doc-image{
+  width: 52px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 10px;
+background: #96A0FF;
+ display: inline-block;
+}
+.report-svg{
+ width: 256px;
+ height: 43px;
+ background-color: #7D68FF;
+ border-radius: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.report-text{
+  color: white;
+}
+.footer {
+  width: 333px;
+  height: 71px;
+  flex-shrink: 0;
+  border-radius: 25px;
+background: #96A0FF;
+margin-top: 37px;
+margin-left: 30px;
+margin-right: 30px;
+margin-bottom: 21px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+  /* Add other styles */
+}
+
+.icon {
+width: 49.145px;
+height: 49.963px;
+border-radius: 10px;
+background: #96A0FF;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+  /* Add other styles */
+}
+button{
+  color: white;
+  background-color: #7D68FF;
+  border: none;
+  font-size: 15px;
+  /* font-weight: 500; */
+  padding: 5px 20px;
+  font-family: Quicksand;
+}
+
